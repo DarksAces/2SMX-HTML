@@ -1,50 +1,55 @@
-.principalf{
-height: 600px;
-width: 2000px;
-margin-top: 0px;
-margin-left: 0px;
-z-index: 2;
-position: relative;
+.principalf {
+    height: 600px;
+    width: 2000px;
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 2;
+    position: relative;
 }
-.menus{
- background-color: rgb(70, 70, 70);
-z-index: 10;
-width: 600px;
-margin-top: -560px;
-margin-left: 1350px;
-margin-right: 600px;
-position: fixed;
-display: flex;
-text-decoration: none;
-color: white;
+
+.menus {
+    background-color: rgb(70, 70, 70);
+    z-index: 10;
+    width: 600px;
+    margin-top: -560px;
+    margin-left: 1350px;
+    margin-right: 600px;
+    position: fixed;
+    display: flex;
+    text-decoration: none;
+    color: white;
 
 }
-.menus h1{
+
+.menus h1 {
     padding-left: 40px;
     text-decoration: none;
-    
+
 }
-.aqui{
+
+.aqui {
     color: rgb(188, 224, 224);
 }
-.menuinc{
+
+.menuinc {
     text-decoration: none;
     color: white;
 }
-.menucon{
+
+.menucon {
     text-decoration: none;
     color: white;
-}   
+}
 
-   
-.iconoinicio{
+
+.iconoinicio {
     width: 50px;
     height: 50px;
     margin-left: 20px;
     margin-top: 10px;
 }
 
-.formulario{
+.formulario {
     z-index: 5;
     background-color: gray;
     margin-left: 800px;
@@ -54,33 +59,34 @@ color: white;
     border-radius: 10px;
     margin-bottom: -100px;
     padding: 10px;
-	width: 20%;
-	  }
+    width: 20%;
+}
 
-.datosformulario{
+.datosformulario {
     text-align: left;
     width: 360px;
     height: 100px;
 }
 
-body{
+body {
     margin-top: 0px;
     margin-left: 0px;
     background-color: rgb(189, 183, 183);
 }
 
-.Noticias{
+.Noticias {
     margin-left: 150px;
     margin-top: -90px;
     z-index: 5;
     display: flex;
     text-decoration: none;
 }
-.Noticia1{
-    background-color:rgb(255, 255, 255);
+
+.Noticia1 {
+    background-color: rgb(255, 255, 255);
     display: inline-block;
     z-index: 10;
-    width: 30%; 
+    width: 30%;
     text-align: center;
     margin-right: 50px;
     border-radius: 10px;
@@ -88,12 +94,13 @@ body{
     text-decoration: none;
 
 }
-.Noticia1:hover{
+
+.Noticia1:hover {
     background-color: rgb(247, 227, 227);
 }
 
-.Noticia2{
-    background-color:rgb(255, 255, 255);
+.Noticia2 {
+    background-color: rgb(255, 255, 255);
     display: inline-block;
     z-index: 10;
     width: 30%;
@@ -103,11 +110,13 @@ body{
     padding: 10px;
     text-decoration: none;
 }
-.Noticia2:hover{
+
+.Noticia2:hover {
     background-color: rgb(247, 227, 227);
-    }
-.Noticia3{
-    background-color:rgb(255, 255, 255);
+}
+
+.Noticia3 {
+    background-color: rgb(255, 255, 255);
     display: inline-block;
     z-index: 10;
     width: 30%;
@@ -117,41 +126,48 @@ body{
     padding: 10px;
     text-decoration: none;
 }
-.Noticia3:hover{
+
+.Noticia3:hover {
     background-color: rgb(247, 227, 227);
-    
-    }
-.FotoN{
+
+}
+
+.FotoN {
     width: 400px;
     height: 400px;
     margin-top: 30px;
 }
-.botonformulario{
+
+.botonformulario {
     width: 200px;
     height: 50px;
     margin-left: 100px;
 }
-.botonformulario:hover{
+
+.botonformulario:hover {
     background-color: white;
     opacity: 0.1;
 }
-.chimuela{
+
+.chimuela {
     text-align: left;
     display: inline-block;
     margin-right: 100px;
 
 }
-.chimuela:hover{
+
+.chimuela:hover {
     transform: rotate(360deg);
     transition-duration: 5s;
 }
-.chimuelo:hover{
+
+.chimuelo:hover {
     width: 20%;
     height: 20%;
 }
 
-.Piepag{
-    background-color:gray;
+.Piepag {
+    background-color: gray;
     color: white;
     display: inline-block;
     text-align: center;

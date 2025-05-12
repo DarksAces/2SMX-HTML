@@ -9,7 +9,7 @@ header {
     margin: auto;
 }
 
-    .Banner {
+.Banner {
     position: relative;
     text-decoration: none;
     width: 100%;
@@ -19,7 +19,7 @@ header {
     margin: auto;
     margin-top: -15px;
     fill-opacity: (0.2);
-      }
+}
 
 main {
     width: 100%;
@@ -45,15 +45,15 @@ main {
     padding: 10px;
     background-color: #000000;
     z-index: 10;
-  }
-  
-  #imagen {
+}
+
+#imagen {
     width: 100%;
     height: auto;
     z-index: 10;
-  }
-  
-  #cerrar {
+}
+
+#cerrar {
     position: absolute;
     top: 0;
     right: 0;
@@ -61,41 +61,42 @@ main {
     border: none;
     font-size: 16px;
     cursor: pointer;
-  }
-  
+}
 
-.contacto{
+
+.contacto {
     text-decoration: none;
     color: #fff;
 }
 
-  
-  label {
+
+label {
     display: block;
     margin-top: 20px;
     z-index: 1;
-  }
-  
-  input[type="text"], select {
+}
+
+input[type="text"],
+select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     z-index: 1;
-  }
-  
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     margin-top: 20px;
     padding: 10px;
     background-color: orange;
     color: white;
     border: none;
     cursor: pointer;
-  }
-  
-  input[type="submit"]:hover{
-    background-color:rgb(70, 201, 19);
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(70, 201, 19);
     transition: background-color 1s;
-  }
+}
 
 nav {
     text-decoration: none;
@@ -120,63 +121,69 @@ li {
 
 a {
     text-decoration: none;
-    color: #fff;;
+    color: #fff;
+    ;
 }
 
-button{
+button {
     text-decoration: none;
-    
+
 }
-#Aventura{
+
+#Aventura {
     border-radius: 10px;
-    background-color:  #070794 ;
+    background-color: #070794;
     color: white;
     margin-top: 10px;
     text-decoration: none;
     width: 100%;
 }
-#Aventura a{
+
+#Aventura a {
     color: white;
     text-decoration: none;
 }
-#Aventura:hover{
+
+#Aventura:hover {
     background-color: red;
     height: 105%;
 }
 
-.Community{
+.Community {
     text-align: center;
     align-items: center;
     align-content: center;
 
 
 }
-#Historia{
+
+#Historia {
     margin-top: 10px;
 }
 
-#RP{
+#RP {
     margin-top: 20px;
 
 }
 
-.FiveM{
+.FiveM {
     color: rgb(190, 189, 189);
     text-align: center;
     align-items: center;
     align-content: center;
 }
-#video{
+
+#video {
     align-items: center;
     align-self: center;
     align-content: center;
     border-radius: 10px;
 }
 
-#Enlaze{
+#Enlaze {
     height: 50px;
     border-radius: 10px;
-    background-color:  #070794 ;
+    background-color: #070794;
     color: white;
     margin-top: 10px;
     text-decoration: none;
@@ -184,40 +191,46 @@ button{
     align-content: center;
     text-align: center;
 }
-.Arthas{
-margin-top: -500px;
-position: absolute;
-z-index: 1;
+
+.Arthas {
+    margin-top: -500px;
+    position: absolute;
+    z-index: 1;
 }
-.Arthas2{
+
+.Arthas2 {
     margin-top: -500px;
     position: absolute;
     z-index: 0;
     filter: grayscale(80%);
     opacity: 0.4;
-   
 
-    }
-#Enlaze img{
-width: 20%;
-height: 80%;
-align-items: start;
+
 }
-#miEnlace{
+
+#Enlaze img {
+    width: 20%;
+    height: 80%;
+    align-items: start;
+}
+
+#miEnlace {
     text-decoration: none;
-   
+
     color: white;
     margin-top: 10px;
     width: 100%;
-   }
-   #miEnlace a{
-       text-decoration: none;
-       color: white;
-      }
-#Enlaze2{
+}
+
+#miEnlace a {
+    text-decoration: none;
+    color: white;
+}
+
+#Enlaze2 {
     height: 50px;
     border-radius: 10px;
-    background-color:  #070794 ;
+    background-color: #070794;
     color: white;
     margin-top: 10px;
     text-decoration: none;
@@ -225,37 +238,40 @@ align-items: start;
     margin-bottom: 10px;
 }
 
-#miEnlace2{
+#miEnlace2 {
     text-decoration: none;
-   
+
     color: white;
     margin-top: 10px;
     width: 100%;
-   }
+}
 
-   #miEnlace2 a{
-       text-decoration: none;
-       color: white;}
+#miEnlace2 a {
+    text-decoration: none;
+    color: white;
+}
 
-    #Enlaze2 img{
-        width: 20%;
-        height: 80%;
-    
-        }
-.cosonegro{
+#Enlaze2 img {
+    width: 20%;
+    height: 80%;
+
+}
+
+.cosonegro {
     margin-top: 20px;
     margin-bottom: 10px;
     background-color: black;
     border-radius: 10px;
 }
-.cosonegro p{
+
+.cosonegro p {
     margin-top: 20px;
     background-color: black;
     margin-top: 10px;
 }
 
 
-.bannermitad{
+.bannermitad {
     text-decoration: none;
     width: 100%;
     height: 618px;
@@ -268,21 +284,22 @@ align-items: start;
 
 }
 
-.titulobannerm{
+.titulobannerm {
     position: absolute;
     margin-top: 0px;
-    color: white; 
-    z-index: 1; 
+    color: white;
+    z-index: 1;
 }
-.introduccionbannerm{
+
+.introduccionbannerm {
     position: absolute;
-    margin-top: -2  0px;
-    color: white; 
-    z-index: 1; 
+    margin-top: -2 0px;
+    color: white;
+    z-index: 1;
     padding-top: 168px;
 }
 
-.bannerform{
+.bannerform {
     text-decoration: none;
     width: 100%;
     height: 700px;
@@ -293,66 +310,66 @@ align-items: start;
 
 }
 
-form{
+form {
     z-index: 10;
     position: relative;
     width: 300px;
     margin: 0 auto;
-    
-  
+
+
 }
 
-#formulario{
+#formulario {
     position: relative;
 }
-.labelnombre{
+
+.labelnombre {
     margin-top: 120px;
 }
-.Anduin{
+
+.Anduin {
     width: 40px;
     position: absolute;
     margin-top: -80px;
-    color: white; 
-    z-index: 1; 
+    color: white;
+    z-index: 1;
     padding-top: 0px;
 
-  
+
 }
 
-.HA{
+.HA {
     position: absolute;
     height: 500px;
-    color: white; 
-    z-index: 1; 
+    color: white;
+    z-index: 1;
     padding-top: 10px;
-    filter:opacity(0.6)
-
-    
-  
+    filter: opacity(0.6)
 }
-.PN{
+
+.PN {
     position: absolute;
     height: 600px;
     object-fit: cover;
-    color: white; 
-    z-index: 1; 
+    color: white;
+    z-index: 1;
     padding-top: 0px;
-    filter:opacity(0.9)
-
+    filter: opacity(0.9)
 }
 
-#PNA{
+#PNA {
     margin-top: -25px;
-    filter:opacity(0.9)
+    filter: opacity(0.9)
 }
 
-.cosonegro2{
+.cosonegro2 {
     padding-top: 20px;
     margin-bottom: 10px;
     background-color: black;
     border-radius: 10px;
 }
-.cosonegro2 p{
+
+.cosonegro2 p {
     background-color: black;
 }
 
@@ -370,12 +387,15 @@ label {
 input[type="radio"] {
     display: none;
 }
-.Generos{
+
+.Generos {
     display: flex;
     align-items: center;
-    
+
 }
-label[for="generoHombre"], label[for="generoMujer"] {
+
+label[for="generoHombre"],
+label[for="generoMujer"] {
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -387,24 +407,26 @@ label[for="generoHombre"], label[for="generoMujer"] {
     background-color: rgb(72, 113, 248);
     margin-top: 10px
 }
-label[for="generoHombre"]{
-    margin-right:10px;
-}
-label[for="generoMujer"]{
-    margin-left:10px;
+
+label[for="generoHombre"] {
+    margin-right: 10px;
 }
 
+label[for="generoMujer"] {
+    margin-left: 10px;
+}
 
 
 
-input[type="radio"]:checked + label {
-    background-color:rgb(151, 33, 33);
+
+input[type="radio"]:checked+label {
+    background-color: rgb(151, 33, 33);
     border-radius: 10px;
-    transition:  2s;
+    transition: 2s;
 }
 
 
-.Gen{
+.Gen {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -415,10 +437,9 @@ input[type="radio"]:checked + label {
 
 /* Pie de página  */
 footer {
-    background-color:black;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 20px 0;
     font-size: 14px;
 }
-
